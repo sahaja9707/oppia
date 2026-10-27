@@ -1,0 +1,13 @@
+{
+  "browser": "HeadlessChrome/102.0.5005.61",
+  "results": {
+    "after": {
+      "role": "button",
+      "focusReached": true,
+      "enterConfirmation": true,
+      "removedAfterConfirmation": true
+    }
+  },
+  "errors": [],
+  "httpErrors": []
+}

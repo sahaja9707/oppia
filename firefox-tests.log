@@ -1,110 +1,110 @@
-27 10 2026 15:42:52.930:WARN [karma-server]: Passing raw CLI options to `new Server(config, done)` is deprecated. Use `parseConfig(configFilePath, cliOptions, {promiseConfig: true, throwErrors: true})` to prepare a processed `Config` instance and pass that as the `config` argument instead.
-Seed for Frontend Test Execution Order 957
+27 10 2026 17:09:22.559:WARN [karma-server]: Passing raw CLI options to `new Server(config, done)` is deprecated. Use `parseConfig(configFilePath, cliOptions, {promiseConfig: true, throwErrors: true})` to prepare a processed `Config` instance and pass that as the `config` argument instead.
+Seed for Frontend Test Execution Order 53
 - Generating browser application bundles...
-27 10 2026 15:45:06.504:INFO [karma-server]: Karma v6.4.1 server started at http://localhost:9876/
+27 10 2026 17:12:24.101:INFO [karma-server]: Karma v6.4.1 server started at http://localhost:9878/
 ✔ Browser application bundle generation complete.
-27 10 2026 15:50:09.419:INFO [Firefox 142.0 (Linux x86_64)]: Connected on socket -9LisEDH6QOEsv9IAAAB with id manual-2055
-Firefox 142.0 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
+27 10 2026 17:15:50.033:INFO [Firefox 142.0 (Linux x86_64)]: Connected on socket WGS5ZMWyMzF4Yb39AAAB with id manual-430
+Firefox 142.0 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KERROR: [36m'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'[39m
+Firefox 142.0 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 ERROR: 'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'
-Firefox 142.0 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-ERROR: 'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'
-Firefox 142.0 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'
-Firefox 142.0 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.376 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.614 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.614 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.376 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.614 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'
-Firefox 142.0 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.376 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'
-Firefox 142.0 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.499 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.831 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.831 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.499 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.831 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'
-Firefox 142.0 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.499 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'
-Firefox 142.0 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.569 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.956 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.956 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.569 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.956 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'
-Firefox 142.0 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.569 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'
-Firefox 142.0 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.631 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 1.069 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 1.069 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.631 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 1.069 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'
-Firefox 142.0 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.631 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'
-Firefox 142.0 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.683 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 1.176 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 1.176 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.683 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 1.176 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'
-Firefox 142.0 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.683 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'
-Firefox 142.0 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.72 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 1.274 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 1.274 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.72 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 1.274 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'
-Firefox 142.0 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.72 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'
-Firefox 142.0 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.767 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 1.353 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 1.353 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.767 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 1.353 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'
-Firefox 142.0 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.767 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'
-Firefox 142.0 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.805 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 1.426 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 1.426 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.805 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 1.426 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'
-Firefox 142.0 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.805 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'
-Firefox 142.0 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.838 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 1.494 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 1.494 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.838 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 1.494 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'
-Firefox 142.0 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.838 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'
-Firefox 142.0 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.887 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.58 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.58 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.887 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.58 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'
-Firefox 142.0 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.887 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'
-Firefox 142.0 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.934 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.663 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.663 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.934 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.663 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'
-Firefox 142.0 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.934 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'
-Firefox 142.0 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.97 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.766 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Firefox 142.0 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.766 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Firefox 142.0 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.97 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'[39m
+Firefox 142.0 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.766 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'
-Firefox 142.0 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.97 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'
-Firefox 142.0 (Linux x86_64): Executed 13 of 13 SUCCESS (0 secs / 1.008 secs)
-Firefox 142.0 (Linux x86_64): Executed 13 of 13 SUCCESS (1.235 secs / 1.008 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 13 of 13[32m SUCCESS[39m (0 secs / 1.846 secs)
+[1A[2KFirefox 142.0 (Linux x86_64): Executed 13 of 13[32m SUCCESS[39m (2.251 secs / 1.846 secs)
+[32mTOTAL: 13 SUCCESS[39m
 TOTAL: 13 SUCCESS
-TOTAL: 13 SUCCESS
-27 10 2026 15:50:13.940:WARN [Firefox 142.0 (Linux x86_64)]: Disconnected (0 times) Client disconnected from CONNECTED state (server shutting down)
-Firefox 142.0 (Linux x86_64) ERROR
+27 10 2026 17:15:56.423:WARN [Firefox 142.0 (Linux x86_64)]: Disconnected (0 times) Client disconnected from CONNECTED state (server shutting down)
+[1A[2K[31mFirefox 142.0 (Linux x86_64) ERROR[39m
   Disconnected Client disconnected from CONNECTED state (server shutting down)
-Firefox 142.0 (Linux x86_64): Executed 13 of 13 SUCCESS (1.235 secs / 1.008 secs)
+Firefox 142.0 (Linux x86_64): Executed 13 of 13[32m SUCCESS[39m (2.251 secs / 1.846 secs)
 Firefox 142.0 (Linux x86_64) ERROR
   Disconnected Client disconnected from CONNECTED state (server shutting down)

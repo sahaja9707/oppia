@@ -8,115 +8,115 @@ Running test in development environment
 
 Running the following specs: {'core/templates/pages/exploration-editor-page/editor-tab/graph-directives/state-graph-visualization.component.spec.ts'}
 Attempt 1 of 2
-27 10 2026 15:38:43.649:WARN [karma-server]: Passing raw CLI options to `new Server(config, done)` is deprecated. Use `parseConfig(configFilePath, cliOptions, {promiseConfig: true, throwErrors: true})` to prepare a processed `Config` instance and pass that as the `config` argument instead.
-Seed for Frontend Test Execution Order 192
+27 10 2026 17:09:22.527:WARN [karma-server]: Passing raw CLI options to `new Server(config, done)` is deprecated. Use `parseConfig(configFilePath, cliOptions, {promiseConfig: true, throwErrors: true})` to prepare a processed `Config` instance and pass that as the `config` argument instead.
+Seed for Frontend Test Execution Order 754
 'karma-coverage-istanbul-reporter' usage has been deprecated since version 11.
 Please install 'karma-coverage' and update 'karma.conf.js.' For more info, see https://github.com/karma-runner/karma-coverage/blob/master/README.md
 - Generating browser application bundles...
-27 10 2026 15:40:38.414:INFO [karma-server]: Karma v6.4.1 server started at http://localhost:9876/
-27 10 2026 15:40:38.415:INFO [launcher]: Launching browsers CI_Chrome with concurrency unlimited
-27 10 2026 15:40:38.419:INFO [launcher]: Starting browser ChromeHeadless
+27 10 2026 17:12:28.036:INFO [karma-server]: Karma v6.4.1 server started at http://localhost:9876/
+27 10 2026 17:12:28.037:INFO [launcher]: Launching browsers CI_Chrome with concurrency unlimited
+27 10 2026 17:12:28.043:INFO [launcher]: Starting browser ChromeHeadless
 ✔ Browser application bundle generation complete.
-27 10 2026 15:41:39.131:INFO [Chrome Headless 102.0.5005.61 (Linux x86_64)]: Connected on socket 0bZo_gCPsfLJ073OAAAB with id 55570083
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
+27 10 2026 17:14:33.179:INFO [Chrome Headless 102.0.5005.61 (Linux x86_64)]: Connected on socket nSekfhxQUEToq9htAAAB with id 57931782
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KERROR: [36m'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 ERROR: 'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-ERROR: 'Error during initialization of PlatformFeatureService: Feature flags data not found in the HTML.'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13 SUCCESS (0 secs / 0 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.277 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.277 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13 SUCCESS (0 secs / 0.277 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.305 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.305 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13 SUCCESS (0 secs / 0.305 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.345 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.345 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13 SUCCESS (0 secs / 0.345 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.372 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.372 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13 SUCCESS (0 secs / 0.372 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.393 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.393 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13 SUCCESS (0 secs / 0.393 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.416 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.416 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13 SUCCESS (0 secs / 0.416 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.448 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.448 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13 SUCCESS (0 secs / 0.448 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.479 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.479 secs)
-ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 0 of 13[32m SUCCESS[39m (0 secs / 0 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13 SUCCESS (0 secs / 0.479 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center the graph has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.516 secs)
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.588 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.588 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.516 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 1 of 13[32m SUCCESS[39m (0 secs / 0.588 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 0 has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.65 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.65 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13 SUCCESS (0 secs / 0.516 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.556 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 2 of 13[32m SUCCESS[39m (0 secs / 0.65 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node error message from node label when showTranslationWarnings is false has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.696 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.696 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.556 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 3 of 13[32m SUCCESS[39m (0 secs / 0.696 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should center graph when centerGraph flag is broadcasted and transform x and y axis to 10, 20 has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 0.745 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 0.745 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13 SUCCESS (0 secs / 0.556 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.583 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 4 of 13[32m SUCCESS[39m (0 secs / 0.745 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should ignore other keys and support click activation on the control and its rectangle has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 0.814 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 0.814 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.583 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 5 of 13[32m SUCCESS[39m (0 secs / 0.814 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should throw error has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 0.86 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 0.86 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 6 of 13[32m SUCCESS[39m (0 secs / 0.86 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get node complete title with its secondary label and warnings has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 0.899 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 0.899 secs)
+ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 7 of 13[32m SUCCESS[39m (0 secs / 0.899 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should check if can navigate to node whenever node id is equal to current state id has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 0.939 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 0.939 secs)
+ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 8 of 13[32m SUCCESS[39m (0 secs / 0.939 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13 SUCCESS (0 secs / 0.583 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should call redrawGraph when graphData has updated has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.603 secs)
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 0.995 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 0.995 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.603 secs)
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 9 of 13[32m SUCCESS[39m (0 secs / 0.995 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should get truncated label with truncate filter has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.027 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.027 secs)
 ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 10 of 13[32m SUCCESS[39m (0 secs / 1.027 secs)
 LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13 SUCCESS (0 secs / 0.603 secs)
-LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Enter has passed'
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 13 of 13 SUCCESS (0 secs / 0.628 secs)
-Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 13 of 13 SUCCESS (1.141 secs / 0.628 secs)
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.084 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.084 secs)
+ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 11 of 13[32m SUCCESS[39m (0 secs / 1.084 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should initialize component properties after component is initialized has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.123 secs)
+[1A[2KERROR: [36m'Unexpected call to ExplorationDataService for pathname: /context.html'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.123 secs)
+ERROR: 'Unexpected call to ExplorationDataService for pathname: /context.html'
+[1A[2KLOG: [36m'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'[39m
+Chrome Headless 102.0.5005.61 (Linux x86_64): Executed 12 of 13[32m SUCCESS[39m (0 secs / 1.123 secs)
+LOG: 'Spec: State Graph Visualization Component when graph is redrawn should delete the focused card once with Space has passed'
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 13 of 13[32m SUCCESS[39m (0 secs / 1.169 secs)
+[1A[2KChrome Headless 102.0.5005.61 (Linux x86_64): Executed 13 of 13[32m SUCCESS[39m (1.895 secs / 1.169 secs)
+[32mTOTAL: 13 SUCCESS[39m
 TOTAL: 13 SUCCESS
-TOTAL: 13 SUCCESS
-27 10 2026 15:41:56.503:WARN [launcher]: ChromeHeadless was not killed in 2000 ms, sending SIGKILL.
+27 10 2026 17:14:53.701:WARN [launcher]: ChromeHeadless was not killed in 2000 ms, sending SIGKILL.
 Done!
 ------------------------------------
 All Frontend Coverage Checks Passed.

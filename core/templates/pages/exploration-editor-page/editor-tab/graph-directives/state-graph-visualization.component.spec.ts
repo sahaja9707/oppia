@@ -361,8 +361,8 @@ describe('State Graph Visualization Component when graph is redrawn', () => {
         });
         deleteButton.dispatchEvent(keyEvent);
 
+        expect(keyEvent.defaultPrevented).toBe(true);
         if (key === ' ') {
-          expect(keyEvent.defaultPrevented).toBe(true);
           expect(deleteStateSpy).not.toHaveBeenCalled();
           deleteButton.dispatchEvent(
             new KeyboardEvent('keyup', {key, bubbles: true})

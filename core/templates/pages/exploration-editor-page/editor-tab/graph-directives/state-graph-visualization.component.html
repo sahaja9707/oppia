@@ -67,7 +67,7 @@ with the same id on the page. -->
                  role="button"
                  tabindex="0"
                  [attr.aria-label]="'Delete ' + getNodeTitle(node) + ' card'"
-                 (keydown.enter)="onNodeDeletionClick(node.id)"
+                 (keydown.enter)="$event.preventDefault(); onNodeDeletionClick(node.id)"
                  (keydown.space)="$event.preventDefault()"
                  (keyup.space)="onNodeDeletionClick(node.id)"
                  (click)="onNodeDeletionClick(node.id)">
